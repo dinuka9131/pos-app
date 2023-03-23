@@ -1,16 +1,18 @@
 .outer{
-    background-color: #b4fff6;
-    width: 8vw;
-    height: 8vw;
+    background-color: #47ecd9;
+    width: 10vw;
+    height: 10vw;
     border-radius: 10px;
     position: relative;
-    margin: 50px;
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
 }
 
 .titleHolder{
     position: absolute;
     left: 5%;
-    top: 60%;
+    top: 65%;
     text-align: left;
     line-height: 1;
 }
