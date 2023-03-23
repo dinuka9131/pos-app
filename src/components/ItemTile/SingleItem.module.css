@@ -1,0 +1,55 @@
+.outer{
+    background-color: #1a1b1b;
+    width: 9.5vw;
+    height: 9.5vw;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 16rem;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+
+.time{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    text-align: left;
+    line-height: 1;
+    color: beige;
+}
+
+.titleHolder{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    text-align: left;
+    line-height: 1;
+    
+}
+
+.mainTitle{
+    font-weight: 700;
+    color: beige;
+}
+
+.subTitle{
+    position: absolute;
+    left: 0%;
+    top: 110%;
+    text-align: left;
+    color: rgb(141, 141, 136);
+}
+
+.symbolOuter{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+.reduce{
+    width: 2.3vw;
+}
+
+.add{
+    width: 2.3vw;
+}
