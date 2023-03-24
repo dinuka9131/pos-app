@@ -1,43 +1,51 @@
 .outer{
-    background-color: #1a1b1b;
-    width: 9.5vw;
-    height: 9.5vw;
-    border-radius: 10px;
+    background-color: #2d2d2d;
+    width: 7.8rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 10px 10px 5px;
+    border-left: 6px solid #b4fff6;
+    text-align: left;
+    padding-left: 1rem;
     position: relative;
-    margin-left: 16rem;
-    cursor: pointer;
-    transition: all 400ms ease-in-out;
+    margin: 0.6rem 0 0 0.3rem;
 }
 
 .time{
     position: absolute;
-    left: 5%;
-    top: 5%;
-    text-align: left;
-    line-height: 1;
-    color: beige;
+    left: 0.5rem;
+    top: 0.5rem;
+    font-family: 'Poppins';
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: #fff;
 }
 
 .titleHolder{
     position: absolute;
-    left: 5%;
-    top: 30%;
-    text-align: left;
-    line-height: 1;
-    
+    top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 0;
+    left: 0.5rem;
+    line-height: 1.2;
 }
 
 .mainTitle{
-    font-weight: 700;
+    font-family: 'Poppins';
+    font-weight: 600;
     color: beige;
+    font-size: 1rem;
+    display: inline-block;
 }
 
 .subTitle{
-    position: absolute;
-    left: 0%;
-    top: 110%;
-    text-align: left;
-    color: rgb(141, 141, 136);
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #999999;
+    font-size: 0.8rem;
 }
 
 .symbolOuter{

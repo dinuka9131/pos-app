@@ -2,14 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import FoodTileContainer from './components/FoodTypeTile/FoodTileContainer';
 import UpperNavBar from './components/NavBar/UpperNavBar';
-import SingleItem from './components/ItemTile/SingleItem';
+import ItemTileContainer from './components/ItemTile/ItemTileContainer';
 
 function App() {
   return (
     <div className="App">
       <UpperNavBar/>
+      <div className='main'>
       <FoodTileContainer/>
-      <SingleItem/>
+      <ItemTileContainer/>
+      </div>
     </div>
   );
 }
