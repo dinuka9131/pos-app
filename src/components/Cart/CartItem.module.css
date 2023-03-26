@@ -1,0 +1,56 @@
+.container{
+    background-color: #4a4c4d;
+    width: 19rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 0px 0.3rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+.countContainer{
+    background-color: #666363;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 8px 0 0 8px;
+    width: 2.1rem;
+}
+
+.countContainer span {
+    position: absolute;
+    color:white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    height: fit-content;
+    width: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.mainTitle{
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.titleHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 0.5rem;
+}
+
+.priceTitle{
+    color: white;
+    font-weight: 500;
+}

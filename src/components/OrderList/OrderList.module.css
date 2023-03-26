@@ -1,0 +1,25 @@
+.detailsOuter{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 0rem;
+    line-height: 1;
+}
+
+.orderNumber{
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.orderStatus{
+    width: 4.5rem;
+    font-size: x-small;
+    margin: 0;
+    padding: 0.05rem 0 0.1rem 0;
+    height: fit-content;
+    position: relative;
+    top: 0.2rem;
+    background-color: rgb(231, 76, 56);
+    border-radius: 0.3rem;
+}

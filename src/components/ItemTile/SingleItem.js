@@ -13,6 +13,7 @@ const SingleItem = () => {
         </div>
         <div className={classes.symbolOuter}>
             <img className={classes.reduce} src={reduceImg}/>
+            <span className={classes.number}>2</span>
             <img className={classes.add} src={addImg}/>
 
         </div>

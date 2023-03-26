@@ -1,0 +1,29 @@
+.mainOuter{
+    width: 18rem;
+    height: 14rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(94, 92, 92);
+    border-radius: 0.5rem;
+}
+
+.subOuter{
+    width: 100%;
+    left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.taxOuter{
+    width: 100%;
+    left: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalOuter{
+    top: 5.1rem;
+    position: relative;
+    font-weight: 600;
+}

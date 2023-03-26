@@ -1,0 +1,17 @@
+.mainOuter{
+    width: 10rem;
+    padding: 1rem 1rem 6rem 1rem;
+    background-color: grey;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.9rem;
+}
+
+
+.title{
+    color: rgb(202, 198, 198);
+    position: relative;
+    margin-bottom: 1rem;
+}
